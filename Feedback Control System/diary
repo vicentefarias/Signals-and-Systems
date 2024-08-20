@@ -1,0 +1,50 @@
+printtransfn(4);
+ 
+num/den = 
+ 
+         4
+   -------------
+   s^2 + 8 s + 4
+printtransfn(16);
+ 
+num/den = 
+ 
+         16
+   --------------
+   s^2 + 8 s + 16
+printtransfn(80);
+ 
+num/den = 
+ 
+         80
+   --------------
+   s^2 + 8 s + 80
+unitstep(4);
+unitstep(16);
+unitstep(80);
+unitramp(4);
+unitramp(16);
+unitramp(4);
+unitramp(16);
+unitramp(80);
+rootlocus;
+rootlocus;
+unitstep(25);
+unitstep(64);
+unitstep(54);
+unitramp(54);
+compensate(8, 16);
+compensate(8, 16);
+rootlocus
+rootlocus;
+compensate(8, 16);
+compensate(8,24)
+compensate(8,20)
+compensate(8,18)
+compensate(20, 40)
+compensate(20, 40)
+compensate(20, 40)
+unitstep(650);
+unitstep(650);
+unitstep(650);
+unitstep(650);
