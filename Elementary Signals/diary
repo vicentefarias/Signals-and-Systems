@@ -1,0 +1,2086 @@
+2 + 3*i
+
+ans =
+
+   2.0000 + 3.0000i
+
+2 + 3*j
+
+ans =
+
+   2.0000 + 3.0000i
+
+2 + 3i
+
+ans =
+
+   2.0000 + 3.0000i
+
+x = 2 + 3i
+
+x =
+
+   2.0000 + 3.0000i
+
+ln(x)
+{Unrecognized function or variable 'ln'.
+} 
+log(x)
+
+ans =
+
+   1.2825 + 0.9828i
+
+z=1-j;
+disp([’real part: ’,num2str(real(z))]);
+ disp([’real part: ’,num2str(real(z))]);
+       ↑
+{Error: Invalid text character. Check for unsupported symbol, invisible character, or pasting of non-ASCII
+characters.
+} 
+disp([real part: ,num2str(real(z))]);
+ disp([real part: ,num2str(real(z))]);
+                  ↑
+{Error: Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+disp(["real part: ",num2str(real(z))]);
+    "real part: "    "1"
+
+disp(["imag part: ",num2str(imag(z))]);
+    "imag part: "    "-1"
+
+disp(["conjugate: ",num2str(conj(z))]);
+    "conjugate: "    "1+1i"
+
+disp(["abs value: ",num2str(abs(z))])
+    "abs value: "    "1.4142"
+
+disp(["angle: ",num2str(angle(z))])
+    "angle: "    "-0.7854"
+
+x=[1 -12.3 pi sqrt(2)]
+
+x =
+
+    1.0000  -12.3000    3.1416    1.4142
+
+x=[1,-12.3,pi,sqrt(2)]
+
+x =
+
+    1.0000  -12.3000    3.1416    1.4142
+
+x.'
+
+ans =
+
+    1.0000
+  -12.3000
+    3.1416
+    1.4142
+
+z=[1 -j 3+2i]
+
+z =
+
+   1.0000 + 0.0000i   0.0000 - 1.0000i   3.0000 + 2.0000i
+
+x=[1;-j;3+20i]
+
+x =
+
+   1.0000 + 0.0000i
+   0.0000 - 1.0000i
+   3.0000 +20.0000i
+
+a = [2; 25; 6 ;9]
+
+a =
+
+     2
+    25
+     6
+     9
+
+a(1)
+
+ans =
+
+     2
+
+a(4)
+
+ans =
+
+     9
+
+a(end)
+
+ans =
+
+     9
+
+indx1 = [3:7]
+
+indx1 =
+
+     3     4     5     6     7
+
+indx2 = [-11: 4]
+
+indx2 =
+
+   -11   -10    -9    -8    -7    -6    -5    -4    -3    -2    -1     0     1     2     3     4
+
+inx2(0:5)
+{Unrecognized function or variable 'inx2'.
+} 
+indx2(0:5)
+{Array indices must be positive integers or logical values.
+} 
+indx2(1:5)
+
+ans =
+
+   -11   -10    -9    -8    -7
+
+c(indx1)
+{Unrecognized function or variable 'c'.
+} 
+c = [1:20]
+
+c =
+
+  Columns 1 through 18
+
+     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16    17    18
+
+  Columns 19 through 20
+
+    19    20
+
+c(indx1)
+
+ans =
+
+     3     4     5     6     7
+
+a = [-2,3,-1,5,7]
+
+a =
+
+    -2     3    -1     5     7
+
+idx = find(a>0)
+
+idx =
+
+     2     4     5
+
+a(idx)
+
+ans =
+
+     3     5     7
+
+idx
+
+idx =
+
+     2     4     5
+
+b = [2,4,2,1,6,7,4,6]
+
+b =
+
+     2     4     2     1     6     7     4     6
+
+x = find(b<5)
+
+x =
+
+     1     2     3     4     7
+
+b(x) = []
+
+b =
+
+     6     7     6
+
+x = find (x<3)
+
+x =
+
+     1     2
+
+b = [2,4,2,1,6,7,4,6]
+
+b =
+
+     2     4     2     1     6     7     4     6
+
+x = find(b<3)
+
+x =
+
+     1     3     4
+
+b(x) = []
+
+b =
+
+     4     6     7     4     6
+
+x = ones(1,5)
+
+x =
+
+     1     1     1     1     1
+
+y = zeros(1,2)
+
+y =
+
+     0     0
+
+y = zeros(2,2)
+
+y =
+
+     0     0
+     0     0
+
+y = ones(5,2)
+
+y =
+
+     1     1
+     1     1
+     1     1
+     1     1
+     1     1
+
+disp(ones(4,1))
+     1
+     1
+     1
+     1
+
+x = [3: 5 : 23]
+
+x =
+
+     3     8    13    18    23
+
+x = [3: 5 : 24]
+
+x =
+
+     3     8    13    18    23
+
+x = [10: -3 : -1]
+
+x =
+
+    10     7     4     1
+
+linspace(10, -4, 1)
+
+ans =
+
+    -4
+
+linspace(10, 1, 4)
+
+ans =
+
+    10     7     4     1
+
+linspace(10, 1, 5)
+
+ans =
+
+   10.0000    7.7500    5.5000    3.2500    1.0000
+
+a = [3, 24, 6]
+
+a =
+
+     3    24     6
+
+b = [1, -5, -10]
+
+b =
+
+     1    -5   -10
+
+a+b
+
+ans =
+
+     4    19    -4
+
+a - b
+
+ans =
+
+     2    29    16
+
+a .* b
+
+ans =
+
+     3  -120   -60
+
+b ./ a
+
+ans =
+
+    0.3333   -0.2083   -1.6667
+
+c = [2,4,5]
+
+c =
+
+     2     4     5
+
+a .^ c
+
+ans =
+
+           9      331776        7776
+
+d = 5
+
+d =
+
+     5
+
+a + f
+{Unrecognized function or variable 'f'.
+} 
+a + d
+
+ans =
+
+     8    29    11
+
+a - d
+
+ans =
+
+    -2    19     1
+
+a .* d
+
+ans =
+
+    15   120    30
+
+a ./ d
+
+ans =
+
+    0.6000    4.8000    1.2000
+
+a .^ d
+
+ans =
+
+         243     7962624        7776
+
+x = [1,3,2.1,exp(1)]
+
+x =
+
+    1.0000    3.0000    2.1000    2.7183
+
+log(x)
+
+ans =
+
+         0    1.0986    0.7419    1.0000
+
+sin(x)
+
+ans =
+
+    0.8415    0.1411    0.8632    0.4108
+
+imag(x)
+
+ans =
+
+     0     0     0     0
+
+c = [-3,2,0,2,5,7,9]
+
+c =
+
+    -3     2     0     2     5     7     9
+
+q = length(c)
+
+q =
+
+     7
+
+disp(sum(c))
+    22
+
+disp(prod(c))
+     0
+
+disp(diff(c))
+     5    -2     2     3     2     2
+
+mean(c)
+
+ans =
+
+    3.1429
+
+pi
+
+ans =
+
+    3.1416
+
+var(c)
+
+ans =
+
+   17.1429
+
+disp(fliplr(c))
+     9     7     5     2     0     2    -3
+
+vectors
+     1     3     5     7     9    11
+
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('disp')" style="font-weight:bold">disp</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 3)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',3,0)">line 3</a>)
+disp(x,y);
+} 
+vectors
+     1     3     5     7     9    11
+
+     5     5     5     5     5
+
+vectors
+     1     3     5     7     9    11
+
+     5     5     5     5     5
+
+vectors
+vectors
+vectors
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,22)">File: vectors.m Line: 4 Column: 22</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+vectors
+   0.0000 + 3.0000i
+
+vectors
+   0.0000 + 3.0000i   0.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+d = i .* [3: -1: 0] + [4: 2: 0];
+} 
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+d = i .* [3: -1: 0] + [4 + 0i: 2 + 0i: 0 + 0i];
+} 
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+d = i .* [3: -1: 0] + [4 + 0i: 2 : 0 + 0i];
+} 
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+d = i .* [3: -1: 0] + [4: 2: 0] + 0i;
+} 
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+complex(d) = i .* [3: -1: 0] + [4: 2: 0];
+} 
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+d = i .* [3: -1: 0] + complex([4: 2: 0]);
+} 
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('complex')" style="font-weight:bold">complex</a>
+Input arrays must have the same size.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+d = complex([3: -1: 0],[4: 2: 0])
+} 
+vectors
+   0.0000 + 3.0000i   0.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+   0.0000 + 3.0000i   0.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+d = i .* [3: -1: 0] + [4: 2: 0];
+} 
+vectors
+   0.0000 + 3.0000i   0.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+   0.0000 + 3.0000i   0.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+   0.0000 + 3.0000i   0.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+   0.0000 + 3.0000i   0.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+   0.0000 + 3.0000i   0.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+{Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 4)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',4,0)">line 4</a>)
+d = i .* [3: -1: 0] + [4: -1: 1, 0];
+} 
+vectors
+   4.0000 + 3.0000i   2.0000 + 2.0000i   0.0000 + 1.0000i   0.0000 + 0.0000i
+
+vectors
+   4.0000 - 3.0000i   2.0000 - 2.0000i   0.0000 - 1.0000i   0.0000 + 0.0000i
+
+vectors
+   4.0000 - 3.0000i   2.0000 - 2.0000i   0.0000 - 1.0000i  -2.0000 + 0.0000i
+
+vectors
+{Unrecognized function or variable 'dispd'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vectors', '/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m', 6)" style="font-weight:bold">vectors</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/vectors.m',6,0)">line 6</a>)
+dispd();
+} 
+vectors
+     2     4     6     8
+
+vectors
+     4    16    64   256
+
+vectors
+     1     3     5     7     9    11
+
+     5     5     5     5     5
+
+   4.0000 - 3.0000i   2.0000 - 2.0000i   0.0000 - 1.0000i  -2.0000 + 0.0000i
+
+     4    16    64   256
+
+x = linspace(0,4*pi,200);
+y = sin(x);
+plot(y)
+x = linspace(0,4*pi,200);
+x = linspace(0,4*pi,300);
+y1 = sin(x);
+y2 = cos(x);
+y3 = y1 .^2;
+plot(x,y1,x,y2,x,y3)
+axis tight
+axis tight
+subplot(3,1,1)
+x = linspace(0,4*pi,300);
+y1 = sin(x);
+y2 = cos(x);
+y3 = y1 .^2;
+subplot(3,1,1)
+plot(x,y1)
+subplot(3,1,1)
+plot(x,y1)
+subplot(3,1,2)
+plot(x,y2)
+axis tight
+subplot(3,1,3)
+plot(x,y3)
+axis tight
+subplot(3,1,1)
+axis tight
+t = linspace(0,2,500);
+
+v = exp(-3*t);
+t = linspace(0,2,500);
+plot(t,v)
+plot(t,v)
+
+grid on
+title("Exponential Decay")
+xlabel("Time (sec)")
+ylabel("Voltage (mV)")
+axis square
+figure
+close all
+x = linspace(0,4*pi,300);
+y1 = sin(x);
+y2 = cos(x);
+y3 = y1 .^2;
+plot(x,y1,x,y2,x,y3)
+grid on
+axis tight
+axis([0 4*pi -1.5 2.5])
+legend("sin","cos","sin^2");
+title("Plot of sin, cos and sin^2")
+
+set(gcf,"paperunits","centimeters");
+
+exportfig(gcf,'expfig.eps','bounds','tight','width',8.5,'linestylemap','bw');
+
+t = -5:0.001:5;
+y = us(-t+2) .* ur(t);
+plot(t,y)
+grid on
+axis([-5 5 -.5 2.5])
+set(gcf,'paperunits','centimeters');
+exportfig(gcf, 'elem1.eps','bounds','tight','width',8.5,'linestylemap','bw');
+fig1_6a
+fig1_6a
+fig1_6a
+fig1_6a
+fig1_6a
+
+fig1_6a
+fig1_6a
+fig1_6a
+avgones
+
+ans =
+
+   NaN
+
+a = [0,0,0,0,1,1,0,1,0,0];
+avgones(a);
+avgones
+     1
+
+
+ans =
+
+   NaN
+
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,11)">File: avgones.m Line: 3 Column: 11</a>
+Incorrect use of '=' operator. To assign a value to a variable, use '='. To compare values for equality, use '=='.
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+avgones(a);
+     5     6     8
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+avgones(a);
+     1     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+avgones(a);
+    1.5000
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+avgones(a);
+b = avgones(a);
+b = avgones(~a);
+b
+
+b =
+
+    1.5000
+
+find(~a==1)
+
+ans =
+
+     1     2     3     4     7     9    10
+
+s = find(~a==1)
+
+s =
+
+     1     2     3     4     7     9    10
+
+y = diff(s)
+
+y =
+
+     1     1     1     3     2     1
+
+z = mean(y)
+
+z =
+
+    1.5000
+
+z = find(y==1)
+
+z =
+
+     1     2     3     6
+
+y(z)
+
+ans =
+
+     1     1     1     1
+
+z(~z)
+
+ans =
+
+  1×0 empty <a href="matlab:helpPopup double" style="font-weight:bold">double</a> row vector
+
+y(~z)
+
+ans =
+
+  1×0 empty <a href="matlab:helpPopup double" style="font-weight:bold">double</a> row vector
+
+a
+
+a =
+
+     0     0     0     0     1     1     0     1     0     0
+
+x= find (a==1)
+
+x =
+
+     5     6     8
+
+y = diff(x)
+
+y =
+
+     1     2
+
+x= find (a==0)
+
+x =
+
+     1     2     3     4     7     9    10
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+b = avgones(~a);
+diff(x)
+
+ans =
+
+     1     1     1     3     2     1
+
+find(1 == (diff((x)))
+ find(1 == (diff((x)))
+                      ↑
+{Error: Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+fig1_8
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+avgones(a)
+     1
+
+fig1_8
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/fig1_8.m',2,15)">File: fig1_8.m Line: 2 Column: 15</a>
+Invalid use of operator.
+} 
+fig1_8
+fig1_6a
+fig1_6a
+us
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('us', '/Users/vicentefarias/matlab/elen_e3084/lab2/us.m', 15)" style="font-weight:bold">us</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/us.m',15,0)">line 15</a>)
+y = (n > 0);
+} 
+fig1_8
+us
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('us', '/Users/vicentefarias/matlab/elen_e3084/lab2/us.m', 15)" style="font-weight:bold">us</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/us.m',15,0)">line 15</a>)
+y = (n >= 0);
+} 
+ur
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ur', '/Users/vicentefarias/matlab/elen_e3084/lab2/ur.m', 15)" style="font-weight:bold">ur</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/ur.m',15,0)">line 15</a>)
+n(n<=0) = 0;
+} 
+fig1_6a
+ur
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ur', '/Users/vicentefarias/matlab/elen_e3084/lab2/ur.m', 15)" style="font-weight:bold">ur</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/ur.m',15,0)">line 15</a>)
+n(n<0) = 0;
+} 
+fig1_6a
+fig1_8
+us
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('us', '/Users/vicentefarias/matlab/elen_e3084/lab2/us.m', 15)" style="font-weight:bold">us</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/us.m',15,0)">line 15</a>)
+y = (n > 0);
+} 
+fig1_8
+fig1_6a
+fig1_8
+fig1_8
+ur
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ur', '/Users/vicentefarias/matlab/elen_e3084/lab2/ur.m', 15)" style="font-weight:bold">ur</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/ur.m',15,0)">line 15</a>)
+n(n<0) = 0;
+} 
+us
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('us', '/Users/vicentefarias/matlab/elen_e3084/lab2/us.m', 15)" style="font-weight:bold">us</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/us.m',15,0)">line 15</a>)
+y = (n >= 0);
+} 
+fig1_8
+fig1_6a
+ur
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ur', '/Users/vicentefarias/matlab/elen_e3084/lab2/ur.m', 15)" style="font-weight:bold">ur</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/ur.m',15,0)">line 15</a>)
+n(n<0) = 0;
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+fig1_8
+fig1_8
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',7,7)">File: avgones.m Line: 7 Column: 7</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+     1
+
+{Output argument "z" (and maybe others) not assigned during call to "avgones".
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+{Output argument "z" (and maybe others) not assigned during call to "avgones".
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+x = find(a==1);
+} 
+b = avgones(a);
+     2
+
+b = avgones(a);
+a
+
+a =
+
+     0     0     0     0     1     1     0     1     0     0
+
+x = find(a==1)
+
+x =
+
+     5     6     8
+
+y = diff(x)
+
+y =
+
+     1     2
+
+find(y~=1)
+
+ans =
+
+     2
+
+fig1_8
+fig1_6a
+x= find(~a==1)
+
+x =
+
+     1     2     3     4     7     9    10
+
+fins(a==1)
+{Unrecognized function or variable 'fins'.
+} 
+find(a==1)
+
+ans =
+
+     5     6     8
+
+fig1_8
+fig1_8
+fig1_6a
+fig1_6a
+fig1_6a
+fig1_8
+{Unrecognized function or variable 'u'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fig1_8', '/Users/vicentefarias/matlab/elen_e3084/lab2/fig1_8.m', 2)" style="font-weight:bold">fig1_8</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/fig1_8.m',2,0)">line 2</a>)
+x = us(-t+2) .* (u(t)-ur(t-1)) + (us(t-2) - us(t-4));
+} 
+fig1_8
+fig1_8
+fig1_6a
+fig1_8
+fig1_6a
+fig1_8
+fig1_8
+fig1_8
+fig1_8
+fig1_8
+fig1_6a
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+a = find(a==1);
+} 
+avgones(a)
+{Unrecognized function or variable 'x'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 4)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',4,0)">line 4</a>)
+b = diff(x);
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+ans =
+
+     1
+
+avgones(a)
+
+ans =
+
+     1
+
+avgones(~a)
+
+ans =
+
+     1     2     3     6
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+ans =
+
+     1
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+ans =
+
+     []
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+ans =
+
+     1
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+ans =
+
+     []
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+ans =
+
+     1
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+ans =
+
+     1     2
+
+avgones(~a)
+
+ans =
+
+     1     1     1     3     2     1
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+ans =
+
+     4     5
+
+avgones(a)
+
+ans =
+
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)
+avgones(a)
+
+ans =
+
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+ans =
+
+     1
+
+avgones(~a)
+
+ans =
+
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+
+f =
+
+     1
+
+
+ans =
+
+     1
+
+avgones(~a)
+
+f =
+
+     1     2     3     6
+
+
+ans =
+
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+f =
+
+     1     2     3     6
+
+
+ans =
+
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+f =
+
+     1     2     3     6
+
+
+ans =
+
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)
+avgones(~a)
+
+f =
+
+     1     2     3     6
+
+
+ans =
+
+     1     1     3
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+f =
+
+     1     2     3     6
+
+
+j =
+
+     3
+
+
+ans =
+
+     1     1     3
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+f =
+
+     1     2     3     6
+
+
+j =
+
+     3
+
+
+ans =
+
+     3
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+f =
+
+     1     2     3     6
+
+
+j =
+
+     3
+
+
+ans =
+
+     1     2     3     6
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+f =
+
+     1     2     3     6
+
+
+j =
+
+     3
+
+
+ans =
+
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+ans =
+
+     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+ans =
+
+     4     5
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+ans =
+
+     4     5
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+ans =
+
+     3     2
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+ans =
+
+     4     5
+
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',10,18)">File: avgones.m Line: 10 Column: 18</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',11,18)">File: avgones.m Line: 11 Column: 18</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',10,5)">File: avgones.m Line: 10 Column: 5</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',10,5)">File: avgones.m Line: 10 Column: 5</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',10,17)">File: avgones.m Line: 10 Column: 17</a>
+Invalid expression. Check for missing or extra characters.
+} 
+avgones(~a)
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',10,17)">File: avgones.m Line: 10 Column: 17</a>
+Invalid expression. Check for missing or extra characters.
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1)
+} 
+avgones(~a)
+
+b =
+
+     1     2     3     4     7     9    10
+
+
+x =
+
+     []
+
+
+i =
+
+     0
+
+
+ans =
+
+     4     5
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1)
+} 
+avgones(~a)
+
+b =
+
+     1     2     3     4     7     9    10
+
+
+i =
+
+     0
+
+
+ans =
+
+     4     5
+
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',8,7)">File: avgones.m Line: 8 Column: 7</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',8,7)">File: avgones.m Line: 8 Column: 7</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',8,7)">File: avgones.m Line: 8 Column: 7</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',8,7)">File: avgones.m Line: 8 Column: 7</a>
+Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of parentheses.
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+ans =
+
+     4     5
+
+avgones(a)
+
+ans =
+
+     2
+
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',9,14)">File: avgones.m Line: 9 Column: 14</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',9,5)">File: avgones.m Line: 9 Column: 5</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',9,5)">File: avgones.m Line: 9 Column: 5</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones(a)
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',9,5)">File: avgones.m Line: 9 Column: 5</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',9,5)">File: avgones.m Line: 9 Column: 5</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',7,1)">File: avgones.m Line: 7 Column: 1</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones(a)
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',7,1)">File: avgones.m Line: 7 Column: 1</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',7,1)">File: avgones.m Line: 7 Column: 1</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones(a)
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',7,1)">File: avgones.m Line: 7 Column: 1</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(a)
+     2
+
+
+x =
+
+     []
+
+
+ans =
+
+     []
+
+avgones(~a)
+     4
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 10)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',10,0)">line 10</a>)
+    x = x + [d]
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',10,10)">File: avgones.m Line: 10 Column: 10</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     4
+
+
+x =
+
+     4     5
+
+     5
+
+
+x =
+
+     4     5     4     5
+
+
+ans =
+
+     4     5     4     5
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+x =
+
+     4     5
+
+
+x =
+
+     4     5     4     5
+
+
+ans =
+
+     4     5     4     5
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     2
+
+
+x =
+
+     4     5
+
+
+x =
+
+     4     5     4     5
+
+
+ans =
+
+     4     5     4     5
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     2
+
+     4
+
+     5
+
+
+ans =
+
+     []
+
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',11,14)">File: avgones.m Line: 11 Column: 14</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones(~a)
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',11,14)">File: avgones.m Line: 11 Column: 14</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',8,1)">File: avgones.m Line: 8 Column: 1</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones(~a)
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',8,1)">File: avgones.m Line: 8 Column: 1</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     2
+
+{Index in position 1 is invalid. Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 11)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',11,0)">line 11</a>)
+        x = c(0,e);
+} 
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',11,14)">File: avgones.m Line: 11 Column: 14</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones(~a)
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',11,14)">File: avgones.m Line: 11 Column: 14</a>
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for
+mismatched delimiters.
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     2
+
+{Index in position 1 is invalid. Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 11)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',11,0)">line 11</a>)
+        x = c(0,e);
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     2
+
+     4
+
+     5
+
+
+ans =
+
+     3
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     2
+
+
+ans =
+
+     3
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     2
+
+
+ans =
+
+     3
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     2
+
+     3
+
+
+ans =
+
+     []
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+     3
+
+
+ans =
+
+     []
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+     4
+
+
+ans =
+
+     []
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+
+ans =
+
+     1     2     3     4
+
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',13,5)">File: avgones.m Line: 13 Column: 5</a>
+Illegal use of reserved keyword "elseif".
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+{Index exceeds the number of array elements (1).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 13)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',13,0)">line 13</a>)
+        disp(e(i));
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+
+ans =
+
+     1     2     3     4
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+
+ans =
+
+     1     2     3     4
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+
+ans =
+
+     1     2     3     4
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+{Index exceeds the number of array elements (2).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 13)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',13,0)">line 13</a>)
+        x = [x b(e:d(i+1))]
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+{Index exceeds the number of array elements (2).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 13)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',13,0)">line 13</a>)
+        x = [x b(e:d(i+1))]
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+{Index exceeds the number of array elements (2).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 13)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',13,0)">line 13</a>)
+        x = [x b(e:d(i+1))]
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+{Index exceeds the number of array elements (2).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 13)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',13,0)">line 13</a>)
+        x = [x b(e:d(i+1))]
+} 
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1
+
+
+ans =
+
+     1     2     3     4
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1
+
+     2
+
+
+ans =
+
+     1     2     3     4
+
+avgones
+{Error: <a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',7,1)">File: avgones.m Line: 7 Column: 1</a>
+At least one END is missing: the statement may begin here.
+} 
+avgones(~a)
+
+ans =
+
+     1     2     3     4     7     9    10
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+
+ans =
+
+     1     2     3     4     7     9    10
+
+avgones
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('avgones', '/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m', 3)" style="font-weight:bold">avgones</a> (<a href="matlab: opentoline('/Users/vicentefarias/matlab/elen_e3084/lab2/avgones.m',3,0)">line 3</a>)
+b = find(a==1);
+} 
+avgones(~a)
+     1     1     1     3     2     1
+
+
+ans =
+
+     1     2     3     4     7     9    10
+
